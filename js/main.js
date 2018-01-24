@@ -3,6 +3,7 @@ $(document).ready(function() {
     $("#searchIcon").click(function() {
         $("#searchIcon").hide();
         $("#myinput").fadeIn();
+        $("#input-box").focus();
     });
     $("#close").click(function() {
         $("#myinput").hide();
