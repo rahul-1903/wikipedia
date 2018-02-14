@@ -46,7 +46,7 @@ $(document).ready(function() {
     });
     function print(data) {
         for(var i=0; i<10; ++i) {
-            $('#content ul').append('<div class="panel panel-default"><div class="panel-heading"><a href=' +data[3][i] +'\'>' +data[1][i] +'</a></div><div class="panel-body">' +data[2][i] +'</div></div>');
+            $('#content ul').append('<div class="panel panel-default"><div class="panel-heading"><a href=' +data[3][i] +'\>' +data[1][i] +'</a></div><div class="panel-body">' +data[2][i] +'</div></div>');
         }
     }
 })
